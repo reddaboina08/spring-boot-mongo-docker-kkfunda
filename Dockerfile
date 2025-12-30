@@ -1,6 +1,6 @@
 # Stage 1: Build the application
 #FROM maven:3.8.5-openjdk-8-slim AS build
-FROM maven:3.8.5-openjdk-8-slim AS build
+FROM openjdk:8-jre-alpine AS build
 
 # Set the working directory inside the container
 WORKDIR /app
