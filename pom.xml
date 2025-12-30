@@ -83,25 +83,20 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
-
-	<!-- soanrqube plugin -->
-		<build>
-    <plugins>
-        <plugin>
+			
+			 <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>sonar-maven-plugin</artifactId>
             <version>3.9.1.2184</version> <!-- Ensure this is a compatible version -->
         </plugin>
-    </plugins>
-</build>
-
-		
+		</plugins>
 	</build>
+
 </project>
